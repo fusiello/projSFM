@@ -25,7 +25,6 @@ method = 'trager' % ICCV23 reduced Trager-Osserman-Ponce construction
 method = 'pami'   % legacy ECCV/PAMI skew-symmetry construction
 method = 'skew'   % optimized skew-symmetry construction
 method = 'fund'   % optimized fundamental-matrix construction
-method = '4dof'   % 4-degree-of-freedom construction
 ```
 
 Typical usage:
@@ -190,22 +189,7 @@ The returned matrix is not row-normalized.
 
 ---
 
-### `solvability_matrix_4dof.m`
-
-Builds the 4-degree-of-freedom solvability matrix.
-
-Typical usage:
-
-```matlab
-J = solvability_matrix_4dof(A);
-```
-
-The input `A` is an adjacency matrix of an undirected connected graph.
-
-Each chord contributes 10 equations, corresponding to the upper-triangular entries of a symmetric \(4 \times 4\) constraint matrix.
-
----
-
+#
 ## Basic Usage
 
 ```matlab
