@@ -1,0 +1,5 @@
+.DS_Store
+Icon?
+*.asv
+*.mex*
+solvability_all_test_results.csv

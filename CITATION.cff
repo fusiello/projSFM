@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "projSFM: MATLAB tools for projective structure from motion"
+authors:
+  - family-names: Fusiello
+    given-names: Andrea
+    affiliation: "University of Udine"
+type: software
+license: MIT
+date-released: 2026-10-30
